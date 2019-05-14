@@ -117,20 +117,20 @@
 
 .organisation-logo {
   padding: 3px 0 3px 30px;
-  background: url("/images/crests/hmrc_crest_18px.png") 5px center no-repeat;
+  background: url("./images/crests/hmrc_crest_18px.png") 5px center no-repeat;
   border-left: 2px solid #009390;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 2) {
   .organisation-logo {
-    background-image: url("/images/crests/hmrc_crest_18px_x2.png");
+    background-image: url("./images/crests/hmrc_crest_18px_x2.png");
     background-size: auto 20px
   }
 }
 
 @media (min-width: 641px) {
   .organisation-logo {
-    background: url("/images/crests/hmrc_crest_18px.png") 5px center no-repeat;
+    background: url("./images/crests/hmrc_crest_18px.png") 5px center no-repeat;
     padding: 3px 0 3px 38px
   }
 }
