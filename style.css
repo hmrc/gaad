@@ -13,6 +13,7 @@
   padding: 35px 0;
   background-color: #614d7d;
 }
+
 .gaad-header:before {
   content: "";
   position: absolute;
@@ -22,6 +23,7 @@
   right: 0;
   border-left: 100vw solid #614d7d;
   box-shadow: 100vw 0 0 #614d7d;
+  z-index: -1;
 }
 
 .gaad-header__text {
@@ -33,38 +35,113 @@
   font-weight: 700;
 }
 
+.gaad-link:focus {
+  color: #0b0c0c;
+}
+
+.gaad-link:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 0;
+  background-color: #ffbf47;
+}
+
 .gaad-resource {
   position: relative;
   margin-bottom: 30px;
 }
 
-.gaad-resource__icon {
-    font-family: "nta",Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 700;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    min-width: 32px;
-    min-height: 29px;
-    margin-top: -20px;
-    padding-top: 3px;
-    border: 3px solid #614d7d;
-    border-radius: 50%;
-    color: #fff;
-    background: #614d7d;
-    font-size: 1.6em;
-    line-height: 29px;
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 .gaad-resource__text {
   padding-left: 50px;
   display: block;
+}
+
+.gaad-resource__icon {
+  font-family: "nta", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  min-width: 32px;
+  min-height: 29px;
+  margin-top: -20px;
+  padding-top: 3px;
+  border: 3px solid #614d7d;
+  border-radius: 50%;
+  color: #fff;
+  background: #614d7d;
+  font-size: 1.6em;
+  line-height: 29px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hmrc-banner {
+  padding: 10px 0 8px;
+  position: relative
+}
+
+@media (min-width: 641px) {
+  .hmrc-banner {
+    padding-bottom: 10px
+  }
+}
+
+.hmrc-banner p {
+  display: table;
+  margin: 0;
+  color: #000;
+  font-family: "nta", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 1.14286
+}
+
+@media (min-width: 641px) {
+  .hmrc-banner p {
+    font-size: 16px;
+    line-height: 1.25
+  }
+}
+
+.hmrc-banner span {
+  display: table-cell;
+  vertical-align: baseline
+}
+
+.organisation-logo {
+  padding: 3px 0 3px 30px;
+  background: url("../images/crests/hmrc_crest_18px.png") 5px center no-repeat;
+  border-left: 2px solid #009390;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  .organisation-logo {
+    background-image: url("../images/crests/hmrc_crest_18px_x2.png");
+    background-size: auto 20px
+  }
+}
+
+@media (min-width: 641px) {
+  .organisation-logo {
+    background: url("../images/crests/hmrc_crest_18px.png") 5px center no-repeat;
+    padding: 3px 0 3px 38px
+  }
+}
+
+.organisation-logo p {
+  font: 13px/16px Helvetica, Arial;
+  margin: 0
+}
+
+@media (min-width: 641px) {
+  .organisation-logo p {
+    font: 18px/22px Helvetica, Arial
+  }
 }
