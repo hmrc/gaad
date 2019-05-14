@@ -1,7 +1,7 @@
 
-# gaad
+# Global Accessibility Awareness Day GitHub site
 
-This is a placeholder README.md for a new repository
+https://hmrc.github.io/gaad/
 
 ### License
 
