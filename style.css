@@ -7,6 +7,11 @@
   padding: 20px 0;
 }
 
+.gaad-section--no-border {
+  border-bottom: none;
+  padding: 20px 0;
+}
+
 .gaad-header {
   position: relative;
   z-index: 0;
@@ -28,6 +33,10 @@
 
 .gaad-header__text {
   color: #fff;
+}
+
+.gaad-text {
+  color: #614d7d;
 }
 
 .gaad-link:link {
