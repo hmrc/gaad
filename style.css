@@ -34,6 +34,12 @@
 .gaad-header__text {
   color: #fff;
 }
+.gaad-header__link:link {
+  color: #fff;
+}
+.gaad-header__link:visited {
+  color: #fff;
+}
 
 .gaad-text {
   color: #614d7d;
