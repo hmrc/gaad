@@ -54,6 +54,34 @@
 .gaad-text {
   color: #462753;
 }
+/* Tim - next 5 are temp css for activites */
+.gaad-activity {
+  color: #462753;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+  .gaad-place {
+    position: relative;
+    margin-bottom: 8px;
+    
+  }
+
+  .gaad-time {
+    position: relative;
+    margin-bottom: 8px;
+    
+  }
+
+  .gaad-email-body {
+    position: relative;
+    margin-bottom: 8px;
+    
+    
+  }
+/*  */
+
 
 .gaad-link:link {
   color: #462753;
