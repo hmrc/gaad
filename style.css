@@ -1,9 +1,9 @@
 .gaad-body {
-  color: #614d7d;
+  color: #462753;
 }
 
 .gaad-section {
-  border-bottom: 1px solid #614d7d;
+  border-bottom: 1px solid #462753;
   padding: 20px 0;
 }
 
@@ -16,7 +16,7 @@
   position: relative;
   z-index: 0;
   padding: 35px 0;
-  background-color: #614d7d;
+  background-color: #462753;
 }
 
 .gaad-header:before {
@@ -26,8 +26,8 @@
   bottom: 0;
   left: -100vw;
   right: 0;
-  border-left: 100vw solid #614d7d;
-  box-shadow: 100vw 0 0 #614d7d;
+  border-left: 100vw solid #462753;
+  box-shadow: 100vw 0 0 #462753;
   z-index: -1;
 }
 
@@ -42,11 +42,11 @@
 }
 
 .gaad-text {
-  color: #614d7d;
+  color: #462753;
 }
 
 .gaad-link:link {
-  color: #614d7d;
+  color: #462753;
   font-weight: 700;
 }
 
@@ -83,10 +83,10 @@
   min-height: 29px;
   margin-top: -20px;
   padding-top: 3px;
-  border: 3px solid #614d7d;
+  border: 3px solid #462753;
   border-radius: 50%;
   color: #fff;
-  background: #614d7d;
+  background: #462753;
   font-size: 1.6em;
   line-height: 29px;
   text-align: center;
