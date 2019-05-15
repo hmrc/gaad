@@ -2,8 +2,12 @@
   color: #462753;
 }
 
+.gaad-main {
+  border-top: 15px solid #462753;
+}
+
 .gaad-section {
-  border-bottom: 1px solid #462753;
+  border-top: 1px solid #462753;
   padding: 20px 0;
 }
 
