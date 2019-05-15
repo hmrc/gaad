@@ -2,8 +2,12 @@
   color: #462753;
 }
 
+.gaad-main {
+  border-top: 15px solid #462753;
+}
+
 .gaad-section {
-  border-bottom: 1px solid #462753;
+  border-top: 1px solid #462753;
   padding: 20px 0;
 }
 
@@ -15,20 +19,8 @@
 .gaad-header {
   position: relative;
   z-index: 0;
-  padding: 35px 0;
+  padding: 15px;
   background-color: #462753;
-}
-
-.gaad-header:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -100vw;
-  right: 0;
-  border-left: 100vw solid #462753;
-  box-shadow: 100vw 0 0 #462753;
-  z-index: -1;
 }
 
 .gaad-header__text {
