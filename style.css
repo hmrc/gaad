@@ -49,6 +49,10 @@
   color: #462753;
   font-weight: 700;
 }
+.gaad-link:visited {
+  color: #462753;
+  font-weight: 700;
+}
 
 .gaad-link:focus {
   color: #0b0c0c;
