@@ -1,0 +1,23 @@
+{
+  "name": "gaad",
+  "version": "1.0.0",
+  "description": "Global Accessibility Awareness Day (GAAD) mini site for HMRC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmrc/gaad.git"
+  },
+  "keywords": [
+    "HMRC",
+    "accessibility",
+    "gaad"
+  ],
+  "author": "HMRC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hmrc/gaad/issues"
+  },
+  "homepage": "https://github.com/hmrc/gaad#readme"
+}
