@@ -29,6 +29,7 @@
   padding: 15px 0;
   background-color: #462753;
 }
+
 .gaad-header--expanded:before {
   content: "";
   position: absolute;
@@ -44,9 +45,11 @@
 .gaad-header__text {
   color: #fff;
 }
+
 .gaad-header__link:link {
   color: #fff;
 }
+
 .gaad-header__link:visited {
   color: #fff;
 }
@@ -54,7 +57,7 @@
 .gaad-text {
   color: #462753;
 }
-/* Tim - next 5 are temp css for activites */
+
 .gaad-activity {
   color: #462753;
   font-weight: 700;
@@ -62,31 +65,30 @@
   margin-bottom: 8px;
 }
 
-  .gaad-place {
-    position: relative;
-    margin-bottom: 8px;
-    
-  }
+.gaad-place {
+  position: relative;
+  margin-bottom: 8px;
 
-  .gaad-time {
-    position: relative;
-    margin-bottom: 8px;
-    
-  }
+}
 
-  .gaad-email-body {
-    position: relative;
-    margin-bottom: 8px;
-    
-    
-  }
-/*  */
+.gaad-time {
+  position: relative;
+  margin-bottom: 8px;
 
+}
+
+.gaad-email-body {
+  position: relative;
+  margin-bottom: 8px;
+
+
+}
 
 .gaad-link:link {
   color: #462753;
   font-weight: 700;
 }
+
 .gaad-link:visited {
   color: #462753;
   font-weight: 700;
@@ -174,15 +176,17 @@
 
 .organisation-logo {
   padding: 3px 0 3px 30px;
-  background: url("/assets/images/crests/hmrc_crest_18px.png") 5px center no-repeat;
+  background: url("../images/crests/hmrc_crest_18px.png") 5px center no-repeat;
   background-size: auto 20px;
   border-left: 2px solid #009390;
 }
+
 @media all and (-webkit-min-device-pixel-ratio: 2) {
   .organisation-logo {
-    background-image: url("/assets/images/crests/hmrc_crest_18px_x2.png");
+    background-image: url("../images/crests/hmrc_crest_18px_x2.png");
   }
 }
+
 @media (min-width: 641px) {
   .organisation-logo {
     background-size: auto 26px;
@@ -204,10 +208,12 @@
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
+
 .video-wrapper iframe {
   position: absolute;
   top: 0;
