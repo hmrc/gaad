@@ -6,5 +6,6 @@ $govuk-font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", san
 
 // Override the govuk-frontend assets path
 $govuk-assets-path: "../";
+$govuk-images-path: "#{$govuk-assets-path}images/";
 
 @import "node_modules/govuk-frontend/all-ie8";
