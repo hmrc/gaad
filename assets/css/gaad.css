@@ -1,34 +1,29 @@
 .gaad-body {
-  color: #462753;
-}
+  color: #462753; }
 
 .gaad-main {
-  border-top: 15px solid #462753;
-}
+  border-top: 15px solid #462753; }
 
 .gaad-section {
   border-top: 1px solid #462753;
-  padding: 20px 0;
-}
+  padding: 20px 0; }
 
 .gaad-section--no-border {
   border-top: none;
-  padding: 20px 0;
-}
+  padding: 20px 0; }
 
 .gaad-header {
   position: relative;
   z-index: 0;
   padding: 15px;
-  background-color: #462753;
-}
+  background-color: #462753; }
 
 .gaad-header--expanded {
   position: relative;
   z-index: 0;
-  padding: 15px;
-  background-color: #462753;
-}
+  padding: 15px 0;
+  background-color: #462753; }
+
 .gaad-header--expanded:before {
   content: "";
   position: absolute;
@@ -38,51 +33,43 @@
   right: 0;
   border-left: 100vw solid #462753;
   box-shadow: 100vw 0 0 #462753;
-  z-index: -1;
-}
+  z-index: -1; }
 
 .gaad-header__text {
-  color: #fff;
-}
+  color: #fff; }
+
 .gaad-header__link:link {
-  color: #fff;
-}
+  color: #fff; }
+
 .gaad-header__link:visited {
-  color: #fff;
-}
+  color: #fff; }
 
 .gaad-text {
-  color: #462753;
-}
+  color: #462753; }
 
 .gaad-link:link {
   color: #462753;
-  font-weight: 700;
-}
+  font-weight: 700; }
+
 .gaad-link:visited {
   color: #462753;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 .gaad-link:focus {
-  color: #0b0c0c;
-}
+  color: #0b0c0c; }
 
 .gaad-link:focus {
   outline: 3px solid #ffbf47;
   outline-offset: 0;
-  background-color: #ffbf47;
-}
+  background-color: #ffbf47; }
 
 .gaad-resource {
   position: relative;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .gaad-resource__text {
   padding-left: 50px;
-  display: block;
-}
+  display: block; }
 
 .gaad-resource__icon {
   font-family: "nta", Arial, sans-serif;
@@ -107,19 +94,15 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-}
+  user-select: none; }
 
 .hmrc-banner {
   padding: 10px 0 8px;
-  position: relative
-}
+  position: relative; }
 
 @media (min-width: 641px) {
   .hmrc-banner {
-    padding-bottom: 10px
-  }
-}
+    padding-bottom: 10px; } }
 
 .hmrc-banner p {
   display: table;
@@ -129,61 +112,50 @@
   font-weight: 400;
   text-transform: none;
   font-size: 14px;
-  line-height: 1.14286
-}
+  line-height: 1.14286; }
 
 @media (min-width: 641px) {
   .hmrc-banner p {
     font-size: 16px;
-    line-height: 1.25
-  }
-}
+    line-height: 1.25; } }
 
 .hmrc-banner span {
   display: table-cell;
-  vertical-align: baseline
-}
+  vertical-align: baseline; }
 
 .organisation-logo {
   padding: 3px 0 3px 30px;
-  background: url("./images/crests/hmrc_crest_18px.png") 5px center no-repeat;
+  background: url("/assets/images/crests/hmrc_crest_18px.png") 5px center no-repeat;
   background-size: auto 20px;
-  border-left: 2px solid #009390;
-}
+  border-left: 2px solid #009390; }
+
 @media all and (-webkit-min-device-pixel-ratio: 2) {
   .organisation-logo {
-    background-image: url("./images/crests/hmrc_crest_18px_x2.png");
-  }
-}
+    background-image: url("/assets/images/crests/hmrc_crest_18px_x2.png"); } }
+
 @media (min-width: 641px) {
   .organisation-logo {
     background-size: auto 26px;
-    padding: 3px 0 3px 38px
-  }
-}
-
+    padding: 3px 0 3px 38px; } }
 
 .organisation-logo p {
   font: 13px/16px Helvetica, Arial;
-  margin: 0
-}
+  margin: 0; }
 
 @media (min-width: 641px) {
   .organisation-logo p {
-    font: 18px/22px Helvetica, Arial
-  }
-}
+    font: 18px/22px Helvetica, Arial; } }
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   padding-top: 25px;
-  height: 0;
-}
+  height: 0; }
+
 .video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
