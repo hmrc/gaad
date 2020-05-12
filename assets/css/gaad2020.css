@@ -1,6 +1,6 @@
 :root {
   /*branding 2019 colour #462753*/
-  --main-bg-color: #ae16f5;  
+  --main-bg-color: #ab2de0;  
 }
 
 img {
@@ -29,7 +29,17 @@ img {
   box-shadow: 100vw 0 0 var(--main-bg-color);
   z-index: -1;
 }
-.gaad-header h1, .govuk-body-l, .gaad-link {
+.gaad-h1 {
+  color: #fff;
+  border: 5px solid #fff;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.gaad-subheader {
+  background-color: #00628c;
+  padding: 25px;
+}
+.govuk-body-l, .gaad-link {
   color: #fff;
 }
 
