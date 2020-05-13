@@ -1,2 +1,2 @@
 
-# [HMRC Global Accessibility Awareness Day](https://hmrc.github.io/gaad/)
+# [HMRC Raising Awareness around Accessibility](https://hmrc.github.io/gaad/)
