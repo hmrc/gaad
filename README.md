@@ -1,8 +1,2 @@
 
-# Global Accessibility Awareness Day GitHub site
-
-https://hmrc.github.io/gaad/
-
-### License
-
-This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+# [HMRC Global Accessibility Awareness Day](https://hmrc.github.io/gaad/)
