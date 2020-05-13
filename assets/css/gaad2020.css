@@ -1,6 +1,6 @@
 :root {
   /*branding 2019 colour #462753*/
-  --main-bg-color: #ab2de0;  
+  --main-bg-color: #ffdd00;  
 }
 
 img {
@@ -30,13 +30,11 @@ img {
   z-index: -1;
 }
 .gaad-h1 {
-  color: #fff;
-  border: 5px solid #fff;
   padding: 10px;
   margin-bottom: 0;
 }
 .gaad-subheader {
-  background-color: #00628c;
+  background-color: #ab2de0;
   padding: 25px;
 }
 .govuk-body-l, .gaad-link {
@@ -58,11 +56,13 @@ img {
 }
 .gaad-grid-grey:hover {
   background-color: var(--main-bg-color);
-  color: #fff;
 }
-.gaad-grid-grey:hover h3, .gaad-grid-grey:hover li, .gaad-grid-grey:hover p, .gaad-grid-grey:hover a {
-  color: #fff;
+.gaad-grid-grey:hover a:focus {
+  background-color: #fff;
 }
+/*.gaad-grid-grey:hover h3, .gaad-grid-grey:hover li, .gaad-grid-grey:hover p, .gaad-grid-grey:hover a {
+  color: #fff;
+}*/
 
 .hmrc-banner {
   padding: 10px 0 8px;
