@@ -46,6 +46,16 @@ img {
 .gaad-grid-grey:hover a:focus {
   background-color: #ffffff;
 }
+.gaad-grid-grey a:focus h3 {
+  outline: 3px solid transparent;
+  background-color: #fd0;
+  -webkit-box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+  text-decoration: none;
+}
+.gaad-grid-grey:hover a:focus h3 {
+  background-color: #ffffff;
+}
 
 .hmrc-banner {
   padding: 10px 0 8px;
