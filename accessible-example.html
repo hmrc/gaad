@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>We would like to hear from you...</title>
+    <link href="https://design-system.service.gov.uk/stylesheets/main-b07178b7492834316b609c3eed72f296.css" rel="stylesheet" media="all" />
+    
+    <!--[if lt IE 9]>
+      <script src="https://design-system.service.gov.uk/javascripts/head-ie8-a371085ca251931cc9b5360c7da328f6.js"></script>
+    <![endif]-->
+    <script src="https://design-system.service.gov.uk/javascripts/vendor/modernizr.js"></script>
+  </head>
+  <body class="govuk-template__body app-example-page">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    <!-- Disable browser validation for any examples that include form elements -->
+    
+    <h1 class="govuk-heading-xl">We would like to hear from you...</h1>
+
+    <p class="govuk-body">As part of our ongoing effort to provide better support and services, we would like to request some details from you.</p>
+    
+    <form action="#" method="post" novalidate>
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-full">
+                <h2 class="govuk-heading-l">Your details</h2>
+            </div>
+        </div>
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+                <div class="govuk-form-group">
+                <label class="govuk-label govuk-label--s" for="full-name">
+                    Full name
+                </label>
+                <input class="govuk-input" id="full-name" name="full-name" type="text" autocomplete="name" spellcheck="false">
+                </div>
+            </div>
+        </div>
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+                <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset" role="group" aria-describedby="dob-hint">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                        What is your date of birth? (optional)
+                    </legend>
+                    <span id="dob-hint" class="govuk-hint">
+                        For example, 31 3 1980
+                    </span>
+                    <div class="govuk-date-input" id="dob">
+                        <div class="govuk-date-input__item">
+                        <div class="govuk-form-group">
+                            <label class="govuk-label govuk-date-input__label" for="dob-day">
+                            Day
+                            </label>
+                            <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="text" autocomplete="bday-day" pattern="[0-9]*" inputmode="numeric">
+                        </div>
+                        </div>
+                        <div class="govuk-date-input__item">
+                        <div class="govuk-form-group">
+                            <label class="govuk-label govuk-date-input__label" for="dob-month">
+                            Month
+                            </label>
+                            <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="text" autocomplete="bday-month" pattern="[0-9]*" inputmode="numeric">
+                        </div>
+                        </div>
+                        <div class="govuk-date-input__item">
+                        <div class="govuk-form-group">
+                            <label class="govuk-label govuk-date-input__label" for="dob-year">
+                            Year
+                            </label>
+                            <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="text" autocomplete="bday-year" pattern="[0-9]*" inputmode="numeric">
+                        </div>
+                        </div>
+                    </div>
+                    </fieldset>
+                </div>
+            </div>
+            
+            <div class="govuk-grid-column-one-half">
+                <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                        Where do you live? (optional)
+                    </legend>
+                    <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
+                        <label class="govuk-label govuk-radios__label" for="where-do-you-live">
+                            England
+                        </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
+                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+                            Scotland
+                        </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+                            Wales
+                        </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-4" name="where-do-you-live" type="radio" value="northern-ireland">
+                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-4">
+                            Northern Ireland
+                        </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+                <button class="govuk-button" data-module="govuk-button">
+                    Continue
+                </button>
+            </div>
+        </div>
+
+    </form>
+    
+    <script src="https://design-system.service.gov.uk/javascripts/govuk-frontend-d78f5b9df409c37471b91ddb1952fee4.js"></script>
+  </body>
+</html>
