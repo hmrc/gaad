@@ -15,6 +15,18 @@
         .govuk-table__header, .govuk-table__cell {
             border-bottom: 0;
         }
+        .govuk-input:focus, .govuk-radios__input:focus+.govuk-radios__label::before {
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .govuk-button:focus:not(:active):not(:hover) {
+            border-color: #00703c;
+            color: #fff;
+            background-color: #00703c;
+            -webkit-box-shadow: 0 2px 0 #002d18;
+            box-shadow: 0 2px 0 #002d18;
+        }
     </style>
   </head>
   <body class="govuk-template__body app-example-page">
@@ -38,7 +50,11 @@
         <table class="govuk-table">
         <thead class="govuk-table__head">
             <tr class="govuk-table__row">
-                <th class="govuk-table__header" colspan="2"><div class="govuk-heading-l">Your details</div></th>
+                <th class="govuk-table__header"><div class="govuk-heading-l">Your details</div></th>
+                <th class="govuk-table__header">
+                <a class="govuk-button" data-module="govuk-button" href="#">
+                    Continue
+                </a></th>
             </tr>
         </thead>
         <tbody class="govuk-table__body">
@@ -126,13 +142,6 @@
                     </div>
                     </fieldset>
                 </div>
-            </td>
-        </tr>
-        <tr class="govuk-table__row">
-            <td class="govuk-table__cell" colspan="2">
-                <a class="govuk-button" data-module="govuk-button" href="#">
-                    Continue
-                </a>
             </td>
         </tr>
         </tbody>
