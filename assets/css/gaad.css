@@ -34,6 +34,9 @@ img {
   padding: 20px;
   margin-bottom: 20px;
 }
+.gaad-grid-grey.height200 {
+  min-height: 200px;
+}
 .gaad-grid-grey p {
   margin-bottom: 0;
 }
