@@ -68,37 +68,25 @@ img {
   display: table-cell;
   vertical-align: baseline;
 }
-.organisation-logo {
-  padding: 3px 0 3px 30px;
-  background: url("../images/crests/hmrc_crest_18px.png") 5px center no-repeat;
-  background-size: auto 20px;
-  border-left: 2px solid #009390;
+
+.hmrc-organisation-logo {
+    border-left: 2px solid #008670;
+    color: #0b0c0c;
+    margin: 0 35px 0 0;
+    padding: 4px 0 4px 5px
 }
-.organisation-logo p {
-  display: table;
-  margin: 0;
-  color: #000;
-  font-family: "nta", Arial, sans-serif;
-  font-weight: 400;
-  text-transform: none;
-  font: 13px/16px Helvetica, Arial;
-  line-height: 1.14286;
+.hmrc-organisation-logo img,.hmrc-organisation-logo svg {
+    fill: currentColor;
+    vertical-align: middle
 }
+.hmrc-organisation-logo p {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle
+}
+
 @media (min-width: 641px) {
   .hmrc-banner {
     padding-bottom: 10px;
-  }
-  .organisation-logo {
-    background-size: auto 26px;
-    padding: 3px 0 3px 38px;
-  }
-  .organisation-logo p {
-    font: 18px/22px Helvetica, Arial;
-    line-height: 1.25;
-  }
-}
-@media all and (-webkit-min-device-pixel-ratio: 2) {
-  .organisation-logo {
-    background-image: url("../images/crests/hmrc_crest_18px_x2.png");
   }
 }
